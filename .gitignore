@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.pytest_cache/
+
+
+# Local configuration
+venv/
+ENV/
+env/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.notebook_lock
+
+# IDE settings
+.vscode/
+.idea/
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+.DS_store
+Thumbs.db
+
+# R logs
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+*.Rcheck/
+.Rproj.user/
+
+# DB & local config
+*.log
+*.sqlite
+*.db
+local_config.json
+secret_keys.env

@@ -1,0 +1,15 @@
+# Data Manipulation & Array Engineering
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Biostatistical Inference & Machine Learning
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# Exploratory Data Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Interactive Runtime Infrastructure
+notebook>=7.1.0
+ipykernel>=6.29.0
