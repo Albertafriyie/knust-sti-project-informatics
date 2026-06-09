@@ -1,10 +1,10 @@
 # Public Health Informatics: Epidemiological Modeling of STI Knowledge Gaps & Behavioral Risk Discrepancies Among Kwame Nkrumah University of Science and Technology Students
 
-[![Python Ingestion Pipeline](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square&logo=python)](https://www.python.org/)
-[![R Biostatistical Inference](https://img.shields.io/badge/R%20Inference-4.3%2B-green.svg?style=flat-square&logo=r)](https://www.r-project.org/)
-[![Database Architecture](https://img.shields.io/badge/SQL-3NF%20Compliant-orange.svg?style=flat-square&logo=postgresql)](https://en.wikipedia.org/wiki/Third_normal_form)
-[![Academic Manuscript](https://img.shields.io/badge/Manuscript-PDF%20Included-red.svg?style=flat-square&logo=adobe-acrobat-reader)]()
-[![Interactive Analytics Engine](https://img.shields.io/badge/Tableau-Dashboard%20Live-brightgreen.svg?style=flat-square&logo=tableau)](https://public.tableau.com/)
+[![Python Ingestion Pipeline](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square&logo=python)](https://github.com/Albertafriyie/knust-sti-project-informatics/blob/main/src/pipeline.py)
+[![R Biostatistical Inference](https://img.shields.io/badge/R%20Inference-4.3%2B-green.svg?style=flat-square&logo=r)](https://github.com/Albertafriyie/knust-sti-project-informatics/blob/main/reports/report.Rmd)
+[![Database Architecture](https://img.shields.io/badge/SQL-3NF%20Compliant-orange.svg?style=flat-square&logo=postgresql)](https://github.com/Albertafriyie/knust-sti-project-informatics/blob/main/database/schema.sql)
+[![Academic Manuscript](https://img.shields.io/badge/Manuscript-PDF%20Included-red.svg?style=flat-square&logo=adobe-acrobat-reader)](https://github.com/Albertafriyie/knust-sti-project-informatics/blob/main/docs/KNUST_STI_Final_Manuscript.pdf)
+[![Interactive Analytics Engine](https://img.shields.io/badge/Tableau-Dashboard%20Live-brightgreen.svg?style=flat-square&logo=tableau)](YOUR_LIVE_TABLEAU_PUBLIC_URL_HERE)
 [![License: Open Science](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
