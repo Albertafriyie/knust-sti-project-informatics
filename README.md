@@ -4,7 +4,7 @@
 [![R Biostatistical Inference](https://img.shields.io/badge/R%20Inference-4.3%2B-green.svg?style=flat-square&logo=r)](https://github.com/Albertafriyie/knust-sti-project-informatics/blob/main/reports/report.Rmd)
 [![Database Architecture](https://img.shields.io/badge/SQL-3NF%20Compliant-orange.svg?style=flat-square&logo=postgresql)](https://github.com/Albertafriyie/knust-sti-project-informatics/blob/main/database/schema.sql)
 [![Academic Manuscript](https://img.shields.io/badge/Manuscript-PDF%20Included-red.svg?style=flat-square&logo=adobe-acrobat-reader)](https://github.com/Albertafriyie/knust-sti-project-informatics/blob/main/docs/KNUST_STI_Final_Manuscript.pdf)
-[![Interactive Analytics Engine](https://img.shields.io/badge/Tableau-Dashboard%20Live-brightgreen.svg?style=flat-square&logo=tableau)](YOUR_LIVE_TABLEAU_PUBLIC_URL_HERE)
+[![Interactive Analytics Engine](https://img.shields.io/badge/Tableau-Dashboard%20Live-brightgreen.svg?style=flat-square&logo=tableau)](https://public.tableau.com/app/profile/albert.dwamena.afriyie/viz/KNUST_STI_Surveillance_Dashboard/Dashboard1)
 [![License: Open Science](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
