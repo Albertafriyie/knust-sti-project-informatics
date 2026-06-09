@@ -48,7 +48,9 @@ knust-sti-informatics/
 │   └── 02_predictive_modeling.ipynb     # Scikit-Learn Regularized Risk Profiling Classifiers
 │
 ├── database/                             # Relational Storage & EHR Normalization Tier
-│   └── schema.sql                        # 3rd Normal Form (3NF) Entity-Relationship System Schema
+│   ├── schema.sql                        # 3rd Normal Form (3NF) Entity-Relationship Schema
+│   ├── seed_db.py                        # Automated Python Seeding & Ingestion Pipeline Engine
+│   └── run_queries.py                    # Advanced Analytical SQL Join & Window Function Executor
 │
 ├── reports/                              # Open-Science Document Compilation Room
 │   └── report.Rmd                        # Mixed-Language R-Markdown Biostatistical Briefing
@@ -88,6 +90,53 @@ knust-sti-informatics/
 
 - Database Design: Normalizes flat data rows into a relational structure meeting Third Normal Form (3NF) standards.
 - System Constraints: Deploys strict data types, primary/foreign keys, and specific database search indexes to mimic real-world Electronic Health Record (EHR) environments.
+
+---
+
+# Verified Computational Checkpoints & Core Outputs
+
+- Notebook 1: Descriptive Epidemiology & Biostatistical Baseline
+
+* **Cohort Ingestion & Management:** This pipeline successfully ingests and profiles the baseline campus cohort dataset ($N = 333$), demonstrating professional compliance in handling large-scale, cross-sectional health datasets.
+* **Sparsity Audit Validation:** Executed a comprehensive data completeness check verifying high biostatistical viability, identifying localized item non-response markers linked with disclosure stigma.
+* **Actionable Stakeholder Insights:** Cross-factional analysis successfully mapped severe structural health resource unawareness peaking sharply within non-science faculties.
+* **Epidemiological Gap Identification:** Behavioral evaluations exposed a distinct third-person illusion where high peer-risk perceptions failed to correlate with or drive personal diagnostic utilization.
+* **Demographic Stratification:** Uncovered critical gender and age testing disparities, establishing the empirical baselines required to construct interactive public health dashboards.
+
+- Notebook 2: ML Pipeline Initialization & Advanced Feature Engineering
+
+* **Predictive Disease Modeling:** Initialized an end-to-end classification infrastructure utilizing scikit-learn, optimizing regularized predictive modeling pipelines for behavioral trend forecasting.
+* **Advanced Feature Engineering:** Constructed the _Relationship Insulation Index_ ($\text{is\_partnered} \times \text{peer\_risk\_perception}$) to mathematically isolate cognitive risk blind spots among partnered student demographics.
+* **Robust Preprocessing Pipelines:** Embedded automated `SimpleImputer` fields alongside feature scaling and One-Hot Encoding layers to preserve data variance without introducing participant selection bias.
+* **Clinical Output Translation:** Extracted structural log-odds from a balanced Logistic Regression model ($\text{ROC-AUC} = 0.71$), translating weights into concrete Odds Ratios highlighting service awareness ($\text{OR} = 3.03$) as the primary driver of screening behavior.
+* **Clinical Workflow Automation:** Deployed a synthetic patient profiling engine calculating individual screening probabilities ($52.3\%$ vs $70.7\%$) to simulate point-of-care clinical triage tracking.
+
+- Relational Database Engine Verification Metrics
+  Running the production multi-table inner joints and advanced analytical window functions on the 3NF database schema outputs the following automated public health intelligence matrix:
+
+```text
+========================= ANALYSIS 1: STRATIFIED PREVALENCE METRICS =========================
+             Institutional College  Total Cohort  Mean Age  Clinic Awareness %  Screening Prevalence %
+                   HEALTH SCIENCES           134      22.2                40.3                    41.0
+    HUMANITIES AND SOCIAL SCIENCES            64      20.5                26.6                    34.4
+        ARTS AND BUILT ENVIRONMENT            25      21.4                32.0                    24.0
+                       ENGINEERING            33      22.1                36.4                    18.2
+                           SCIENCE            58      20.6                29.3                    17.2
+AGRICULTURE AND NATURAL RESOURCES            19      21.4                15.8                    15.8
+
+========================= ANALYSIS 2: ADVANCED WINDOW FUNCTION RANKING =========================
+             Institutional College  Partnered Mean Risk Perception  Risk Blindness Priority Rank
+                           SCIENCE                            3.41                               1
+    HUMANITIES AND SOCIAL SCIENCES                            3.59                               2
+AGRICULTURE AND NATURAL RESOURCES                            3.75                               3
+        ARTS AND BUILT ENVIRONMENT                            3.75                               3
+                   HEALTH SCIENCES                            3.85                               5
+                       ENGINEERING                            4.17                               6
+```
+
+- Operational Insight Translation: The relational analytics verify a prominent Intention-Behavior Action Gap within the Engineering and Science faculties (high awareness, rock-bottom testing rates) and isolates the College of Science at Priority Rank 1 for relationship-driven risk blindness.
+
+---
 
 # Interactive Public Health Reporting Dashboards
 
@@ -155,3 +204,7 @@ The source code, automation engines, and relational schema designs within this w
 - Academic Matrix: Alumnus, Kwame Nkrumah University of Science and Technology (KNUST)
 
 - Research Pipelines: Public Health Informatics, Clinical Workflow Automation, Behavioral Epidemiology Modeling, and Healthcare Relational Database Management Systems.
+
+```
+
+```
