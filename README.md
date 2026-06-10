@@ -31,31 +31,45 @@ _"Awareness, Risk Perception and Preventive Measures for Sexually Transmitted In
 This workspace is explicitly compartmentalized into specialized research tiers to guarantee open-science transparency and analytical reproducibility:
 
 ```text
-knust-sti-informatics/
+KNUST-STI-PROJECT-INFORMATICS/
 │
 ├── data/                                 # Secure Study Sandbox Tier
 │   ├── group17_clean.csv                 # Raw Survey Ingestion Target (N=333)
 │   └── processed_cohort_data.csv         # Cleaned, Standardized Pipeline Matrix
 │
-├── docs/                                 # Institutional Literature Domain
-│   └── KNUST_STI_Final_Manuscript.pdf   # Appended Departmental Research Paper
+├── database/                             # Relational Storage & EHR Normalization Tier
+│   ├── knust_health.db                   # [Gitignored] Local SQLite Database Instance
+│   ├── queries.sql                       # Production Analytical SQL Query Scripts
+│   ├── run_queries.py                    # Advanced Analytical SQL Join & Window Function Executor
+│   ├── schema.sql                        # 3rd Normal Form (3NF) Entity-Relationship Schema
+│   └── seed_db.py                        # Automated Python Seeding & Ingestion Pipeline Engine
 │
-├── src/                                  # Automated Data Engineering Layer
-│   └── pipeline.py                       # Automated Ingestion, Cleansing & Custom Feature Functions
+├── docs/                                 # Institutional Literature Domain
+│   └── KNUST_STI_Final_Manuscript.pdf    # Appended Departmental Research Paper
 │
 ├── notebooks/                            # Interactive Computational Analysis Workspaces
 │   ├── 01_biostatistical_inference.ipynb # SciPy Non-Parametric Independence Testing
-│   └── 02_predictive_modeling.ipynb     # Scikit-Learn Regularized Risk Profiling Classifiers
-│
-├── database/                             # Relational Storage & EHR Normalization Tier
-│   ├── schema.sql                        # 3rd Normal Form (3NF) Entity-Relationship Schema
-│   ├── seed_db.py                        # Automated Python Seeding & Ingestion Pipeline Engine
-│   └── run_queries.py                    # Advanced Analytical SQL Join & Window Function Executor
+│   └── 02_predictive_modeling.ipynb      # Scikit-Learn Regularized Risk Profiling Classifiers
 │
 ├── reports/                              # Open-Science Document Compilation Room
-│   └── report.Rmd                        # Mixed-Language R-Markdown Biostatistical Briefing
+│   ├── college_testing_awareness_gaps.png # Institutional Screening Access Disparity Chart
+│   ├── dataset_sparsity_matrix.png       # Missing Data & Features Density Matrix Plot
+│   ├── knowledge_evolution_progress.png  # STI Awareness Progress Trend Plot
+│   ├── model_roc_curve.png               # Logistic Regression Classifier ROC Curve
+│   ├── prevention_pipeline_heatmap.png   # Behavioral Risk Matrix Correlation Heatmap
+│   ├── report.html                       # Compiled Dynamic Interactive Web Dashboard
+│   ├── report.pdf                        # Production-Ready Academic Research Manuscript
+│   ├── report.Rmd                        # Mixed-Language R-Markdown Biostatistical Briefing
+│   ├── risk_perception_gap.png           # Cognitive Risk Insulation Disparity Visualization
+│   └── structural_cohort_flow.png        # Cohort Inclusion/Exclusion Flow Diagram
+│
+├── src/                                  # Automated Data Engineering Layer
+│   └── pipeline.py                       # Automated Ingestion, Cleansing & Feature Functions
 │
 ├── .gitignore                            # IRB Data Governance and Asset Protection Guidelines
+├── knust_health.db                       # [Gitignored] Duplicate Root DB State (Safe to Delete)
+├── portfolio_manual.md                   # Project Operations & Environment Setup Manual
+├── README.md                             # Comprehensive Repository Documentation Hub
 └── requirements.txt                      # Python System Dependency Constraints
 ```
 
